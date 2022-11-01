@@ -1,19 +1,21 @@
 import * as React from 'react';
-// import {MdHome} from 'react-icons/md';
+import {MdHome,MdAccountBox} from 'react-icons/md';
  const TopNav: React.FC= () => {
+    const iconClass = 'text-gray-600 text-2xl';
+    const headingClass = 'text-lg font-semibold';
     return ( 
-    <div className='bg-red-100 h-8 w-full'>
-       <div>
-        <span>
-            {/* <MdHome /> */}
-            Cruz Home
+    <div className='flex justify-between bg-red-100 h-8 w-full'>
+       <div className='ml-4 w-2/12 flex justify-around'>
+        <span className='flex items-center'>
+            <MdHome className={iconClass} />
+          <h3 className={headingClass}>Cruz Home</h3>
         </span>
-        <span>
-            {/* <MdHome /> */}
-            Hi,{"user"}
+        <span className='flex items-center'>
+            <MdAccountBox className={iconClass}/>
+           <h3 className={headingClass}> Hi,{"DTBH"}</h3>
         </span>
        </div>
-       <div>
+       <div className='flex justify-around  mr-8 w-4/12'>
        <span>
             {/* <MdHome /> */}
             Save big on our app

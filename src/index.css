@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities{
+img{
+object-fit:cover;
+}
+.OverFlow{
+  overflow-x:scroll;
+ }
+}
