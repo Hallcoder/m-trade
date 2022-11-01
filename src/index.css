@@ -5,4 +5,7 @@
 img{
 object-fit:cover;
 }
+.OverFlow{
+  overflow-x:scroll;
+ }
 }

@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
+    <div className="bg-[#F8F8F8]">
      <TopNav />
      <NavBar />
      <HomeMain />
