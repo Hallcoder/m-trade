@@ -43,8 +43,8 @@ useEffect(()=>{
 return ( 
         <div className='slide border h-[52vh]  z-index relative'>
             <SlideShow images={images} currentSlide={currentSlide}/>
-            <MdArrowForwardIos  onClick={() => handleAction('next')} className='absolute top-[45%] hover:flex peer-hover:flex left-[97%] hidden text-white bg-opacity-40 h-12 w-8  bg-black'/>
-            <MdArrowBackIosNew  onClick={() => handleAction('previous')} className='absolute top-[45%] hover:flex peer-hover:flex hidden text-white bg-opacity-40 h-12 w-8 bg-black' />
+            <MdArrowForwardIos  onClick={() => handleAction('next')} className='absolute top-[45%] hover:flex peer-hover:flex left-[94%] hidden text-black p-2 h-12 w-8  bg-white rounded-full'/>
+            <MdArrowBackIosNew  onClick={() => handleAction('previous')} className='absolute top-[45%] left-[5%] hover:flex peer-hover:flex hidden text-black h-12 p-2 rounded-full  w-8 bg-white' />
         </div>
      );
 }

@@ -9,9 +9,9 @@ return <article className='flex flex-col hover:shadow-lg hover:border bg-white w
     <h1 className='font-bold'>{title}</h1>
     <h2>View All</h2>
 </span>
-<div className='flex gap-1'>
+<div className='flex gap-1 items-center '>
     {images.map(img => {
-        return <img src={img} alt=''></img>
+        return <img src={img} alt='' className='h-20 w-24 object-cover '></img>
     })}
 </div>
 </article>

@@ -10,6 +10,7 @@ import RightSidebar from "./RightSidebar";
 import FlashSales from "./FlashSales";
 import FlashSale from "./FlashSale";
 import Pick from "./Pick";
+import TopDeals from "./TopDeals";
 const HomeMain: React.FC = () => {
   return (
     <main className="flex flex-col w-10/12 m-auto">
@@ -31,16 +32,16 @@ const HomeMain: React.FC = () => {
         <FlashSales />
       </section>
       <section id='picks' className="flex flex-wrap mt-4 gap-y-2 p-1">
-        <Pick title='Mobile Phone' images={['']}/>
-        <Pick title='Mobile Phone' images={['']}/>
-        <Pick title='Mobile Phone' images={['']}/>
-        <Pick title='Mobile Phone' images={['']}/>
-        <Pick title='Mobile Phone' images={['']}/>
-        <Pick title='Mobile Phone' images={['']}/>
-        <Pick title='Mobile Phone' images={['']}/>
-        <Pick title='Mobile Phone' images={['']}/>
-       
+        <Pick title='Mobile Phone' images={[men,women,accessories]}/>
+        <Pick title='Mobile Phone' images={[men,women,accessories]}/>
+        <Pick title='Mobile Phone' images={[men,women,accessories]}/>
+        <Pick title='Mobile Phone' images={[men,women,accessories]}/>
+        <Pick title='Mobile Phone' images={[men,women,accessories]}/>
+        <Pick title='Mobile Phone' images={[men,women,accessories]}/>
+        <Pick title='Mobile Phone' images={[men,women,accessories]}/>
+        <Pick title='Mobile Phone' images={[men,women,accessories]}/>
       </section>
+      <TopDeals />
     </main>
   );
 };
