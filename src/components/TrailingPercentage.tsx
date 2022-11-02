@@ -4,7 +4,7 @@ interface Props{
 }
 const TrailingPercentage:React.FC<Props>  = ({percentage}) => {
     return (  
-        <span className='bg-red-600 p-1 absolute -top-4 text-white text-lg'>{percentage}</span>
+        <span className='bg-red-600 p-1 absolute -top-4 -left-3 text-white text-lg'>{percentage}</span>
     );
 }
 

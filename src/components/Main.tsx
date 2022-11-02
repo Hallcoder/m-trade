@@ -11,6 +11,7 @@ import FlashSales from "./FlashSales";
 import FlashSale from "./FlashSale";
 import Pick from "./Pick";
 import TopDeals from "./TopDeals";
+import Perks from "./Perks";
 const HomeMain: React.FC = () => {
   return (
     <main className="flex flex-col w-10/12 m-auto">
